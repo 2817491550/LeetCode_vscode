@@ -1,3 +1,4 @@
+
 #
 # @lc app=leetcode.cn id=300 lang=python3
 #
