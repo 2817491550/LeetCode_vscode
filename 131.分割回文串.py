@@ -31,6 +31,6 @@ class Solution:
                 if substring[i]!=substring[n-1-i]:
                     return False
             return True
-# print(Solution().partition("aab"))
+
 # @lc code=end
 
