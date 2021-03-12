@@ -5,12 +5,20 @@
 #
 
 # @lc code=start
+from collections import Counter
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        T_alphaBet={c:0 for c in s}
-        for c in s:
-            T_alphaBet[c]+=1
-        
+        t_counter=Counter(t)
+        win_counter=dict()
+        distance=0
+        left,right=0,0
+        n=len(s)
+        min_len=len(s)+1
+        begin=0
+        tlen=len(t)
+        while right<n:
+            if distance<tlen:
+                win_counter[]
 
 # @lc code=end
 
